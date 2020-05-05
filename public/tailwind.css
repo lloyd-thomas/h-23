@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: AvenirNext-Regular, sans-serif;
+}
+
+h1,
+h2 {
+    @apply text-blueh23;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: AvenirNext-Regular;
+    font-weight: 400;
+    src: url(../fonts/avenir-next-regular.ttf) format("woff");
+}
+
+h1 {
+    @apply text-4xl;
+    @apply leading-tight;
+}
+
+blockquote {
+    @apply mb-16;
+    @apply text-pinkh23;
+    @apply text-2xl;
+}
+
+blockquote h1 {
+    font-family: trade-gothic-next-compressed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6rem;
+    line-height: 100%;
+    @apply mb-4;
+    @apply text-pinkh23;
+}
+
+h2 {
+    @apply text-3xl;
+    line-height: 100%;
+}
+
+h1 {
+    @apply mb-16;
+}
+
+h2 {
+    @apply mb-4;
+}
+
+article {
+    @apply mb-16;
+}
+
+p {
+    @apply text-lg;
+}
+
+a:link {
+    @apply underline;
+}
