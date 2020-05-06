@@ -45,7 +45,7 @@ blockquote h1 {
 
 h2 {
     @apply text-3xl;
-    line-height: 100%;
+    line-height: 1em;
 }
 
 h1 {
