@@ -26,9 +26,11 @@ h1 {
 }
 
 blockquote {
+    @apply bg-pinkh23;
     @apply mb-16;
-    @apply text-pinkh23;
     @apply text-2xl;
+    @apply text-white;
+    @apply p-8;
 }
 
 blockquote h1 {
@@ -38,7 +40,7 @@ blockquote h1 {
     font-size: 6rem;
     line-height: 100%;
     @apply mb-4;
-    @apply text-pinkh23;
+    @apply text-white;
 }
 
 h2 {
@@ -64,4 +66,8 @@ p {
 
 a:link {
     @apply underline;
+}
+
+#mc_embed_signup .button {
+    @apply bg-blueh23 !important;
 }
