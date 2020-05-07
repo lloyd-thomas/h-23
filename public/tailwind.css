@@ -50,6 +50,8 @@ h2 {
 
 h1 {
     @apply mb-16;
+    font-family: tgn-soft-round, sans-serif;
+    @apply text-6xl;
 }
 
 h2 {
@@ -62,10 +64,6 @@ article {
 
 p {
     @apply text-lg;
-}
-
-a:link {
-    @apply underline;
 }
 
 #mc_embed_signup .button {
