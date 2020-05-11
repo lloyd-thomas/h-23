@@ -3,9 +3,15 @@ module.exports = {
         colors: {
             blueh23: '#320aff',
             pinkh23: '#bb0be2',
-            white: '#ffffff'
+            white: '#ffffff',
+            lightgrey: '#dadada'
         },
-        extend: {},
+        extend: {
+            fontSize: {
+                '7xl': '5rem',
+                '8xl': '5rem'
+            }
+        },
     },
     variants: {},
     plugins: [],

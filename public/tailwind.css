@@ -37,7 +37,6 @@ blockquote h1 {
     font-family: trade-gothic-next-compressed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 6rem;
     line-height: 100%;
     @apply mb-4;
     @apply text-white;
@@ -51,7 +50,6 @@ h2 {
 h1 {
     @apply mb-16;
     font-family: tgn-soft-round, sans-serif;
-    @apply text-6xl;
 }
 
 h2 {
