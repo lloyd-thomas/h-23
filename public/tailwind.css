@@ -6,7 +6,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+.coming-soon {
     @apply text-blueh23;
     font-family: trade-gothic-next, sans-serif;
     font-weight: 400;
