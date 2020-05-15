@@ -5,6 +5,11 @@ body {
     font-family: AvenirNext-Regular, sans-serif;
 }
 
+a {
+    @apply text-blueh23;
+    @apply underline;
+}
+
 h1,
 h2,
 .coming-soon {

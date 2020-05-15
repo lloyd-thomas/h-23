@@ -71,17 +71,17 @@ var advancedStaggeringAnimation = (function() {
                 keyframes: [{
                     translateX: anime.stagger('-2px', { grid: grid, from: index, axis: 'x' }),
                     translateY: anime.stagger('-2px', { grid: grid, from: index, axis: 'y' }),
-                    duration: 100
+                    duration: 200
                 }, {
                     translateX: anime.stagger('4px', { grid: grid, from: index, axis: 'x' }),
                     translateY: anime.stagger('4px', { grid: grid, from: index, axis: 'y' }),
                     scale: anime.stagger([2.6, 1], { grid: grid, from: index }),
-                    duration: 225
+                    duration: 450
                 }, {
                     translateX: 0,
                     translateY: 0,
                     scale: 1,
-                    duration: 1200,
+                    duration: 2400,
                 }],
                 delay: anime.stagger(80, { grid: grid, from: index })
             }, 30)
